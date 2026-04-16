@@ -3,10 +3,9 @@ import React from "react";
 
 export default function AcademicRecord() {
     return (
-        <div className="grid md:grid">
-        <div className="md ml-0 md:ml-64 p-2 md:p-4">
-          <h1 className="text-lg md:text-2xl font-bold mb-4 md:mb-6">Academic Record</h1>
-            <div className="bg-white rounded-lg shadow p-4">
+        <div className="md:ml-64">
+          <h1 className="text-2xl font-bold ml-10 mt-6">Academic Record</h1>
+            <div className="bg-white rounded-lg shadow m-10 p-4">
 
                 <h2 className="text-xl font-semibold mb-2">GPA: 3.8</h2>
                 <h2 className="text-xl font-semibold mb-2">Completed Credits: 90</h2>
@@ -45,7 +44,6 @@ export default function AcademicRecord() {
                 </table>
 
             </div>
-        </div>
         </div>
     );
 
